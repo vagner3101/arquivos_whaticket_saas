@@ -158,10 +158,10 @@ const Login = () => {
 						</Grid>
 					</form>
 					<IconButton color="primary"
-						onClick={() => openInNewTab(`https://wa.me/${process.env.REACT_APP_NUMBER_SUPPORT}`)}>
+						onClick={() => openInNewTab(`https://wa.me/554920208687?text=Ol%C3%A1`)}>
 						<WhatsAppIcon />
 					</IconButton>
-					<Typography variant="caption">Enviar mensagem no WhatsApp</Typography>
+					<Typography variant="caption">Chamar suporte no WhatsApp</Typography>
 
 				</div>
 			</Container>

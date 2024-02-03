@@ -308,11 +308,11 @@ const LoggedInLayout = ({ children }) => {
           >
             {greaterThenSm && user?.profile === "admin" && user?.company?.dueDate ? (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo(a) à plataforma <b>Chatboot</b>! (Plano Ativo até {dateToClient(user?.company?.dueDate)})
+                Olá <b>{user.name}</b>, seja bem-vindo(a) à plataforma Chatbot da <b>Central Tech</b>! (Plano Ativo até {dateToClient(user?.company?.dueDate)})
               </>
             ) : (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo(a) à plataforma <b>Chatboot</b>!
+                Olá <b>{user.name}</b>, seja bem-vindo(a) à plataforma <b>Chatbot</b>!
               </>
             )}
           </Typography>
